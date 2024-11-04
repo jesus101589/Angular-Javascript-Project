@@ -1,0 +1,36 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+  background-color: #166cee;
+}
+
+.svg-map {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 60%;
+}
+
+.info{
+  width: 30%;
+  border: black;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 8px;
+}
+
+.resource-container {
+  margin-top: .5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  padding: 5px;
+}
